@@ -22,8 +22,8 @@ with open("data/src-best-sandwiches.tsv", "w") as f:
     for url in sammy_urls:
         url = url.replace("http://www.chicagomag.com", "")  # inconsistent URL
         page = urlopen("http://www.chicagomag.com{0}".format(url))
-        soup = BeautifulSoup(page.read()).find("div", {"id": "sandwich"})
-        rank = soup.find("div", {"id": "sandRank"}).encode_contents().strip()
+      
+        rank = soup.find("div", {"id": "sandRank"}).encode_contents().strip()  soup = BeautifulSoup(page.read()).find("div", {"id": "sandwich"})
         sandwich = soup.h1.encode_contents().strip().split("<br/>")[0]
         restaurant = soup.h1.span.encode_contents()
         description = soup.p.encode_contents().strip()
