@@ -7,9 +7,9 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, date
-copper.project.path = '../..'
+#copper.project.path = '../..'
 
-games = copper.read_csv('games.csv').set_index('id')
+games = pd.read_csv('games.csv').set_index('id')
 BASE_URL = 'http://espn.go.com/nba/boxscore?gameId={0}'
 
 request = requests.get(BASE_URL.format(games.index[0]))
@@ -40,7 +40,7 @@ def get_players(players, team_name):
     return frame
 
 for index, row in games.iterrows():
-    print(index)
+    #print(index)
     request = requests.get(BASE_URL.format(index))
     table = BeautifulSoup(request.text).find('table', class_='mod-data')
     heads = table.find_all('thead')
@@ -58,4 +58,4 @@ for index, row in games.iterrows():
 
 players = players.set_index('id')
 print(players)
-copper.save(players, 'players')
+players.save(players, 'players')
