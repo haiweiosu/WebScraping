@@ -6,7 +6,7 @@ from sklearn import cross_validation
 # Metrics
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
-from sklearn.metrics import auc_score
+from sklearn.metrics import roc_auc_score
 from sklearn.metrics import average_precision_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import fbeta_score
@@ -174,7 +174,7 @@ class ModelComparison(dict):
         return self.metric(accuracy_score, name='Accuracy', **args)
 
     def auc_score(self, **args):
-        return self.metric(auc_score, name='AUC', **args)
+        return self.metric(roc_auc_score, name='AUC', **args)
 
     def average_precision_score(self, **args):
         return self.metric(average_precision_score, name='Avg Precision', **args)
