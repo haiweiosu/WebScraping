@@ -11,7 +11,7 @@ from datetime import datetime, date
 
 year = 2015
 teams = pd.read_csv('teams.csv')
-BASE_URL = 'http://espn.go.com/college-football/team/schedule/_/name/{0}/year/{1}/{2}'
+BASE_URL = 'http://espn.go.com/college-football/team/schedule/_/id/{0}/year/{1}/'
 
 match_id = []
 dates = []

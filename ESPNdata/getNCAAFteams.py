@@ -4,7 +4,7 @@ import copper
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-copper.project.path = '../../'
+#copper.project.path = '../../'
 
 url = 'http://espn.go.com/college-football/teams'
 r = requests.get(url)
