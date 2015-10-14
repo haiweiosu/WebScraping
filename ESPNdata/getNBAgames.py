@@ -7,10 +7,10 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, date
-copper.project.path = '../../'
+# copper.project.path = '../'
 
 year = 2013
-teams = copper.read_csv('teams.csv')
+teams = pd.read_csv('teams.csv')
 BASE_URL = 'http://espn.go.com/nba/team/schedule/_/name/{0}/year/{1}/{2}'
 
 match_id = []
@@ -23,7 +23,7 @@ visit_team_score = []
 for index, row in teams.iterrows():
     _team, url = row['team'], row['url']
     r = requests.get(BASE_URL.format(row['prefix_1'], year, row['prefix_2']))
-    table = BeautifulSoup(r.text).table
+    table = BeautifulSoup(r.text, "html.parser").table
     for row in table.find_all('tr')[1:]: # Remove header
         columns = row.find_all('td')
         try:
@@ -59,6 +59,6 @@ for index, row in teams.iterrows():
 dic = {'id': match_id, 'date': dates, 'home_team': home_team, 'visit_team': visit_team,
         'home_team_score': home_team_score, 'visit_team_score': visit_team_score}
 
-games = pd.DataFrame(dic).drop_duplicates(cols='id').set_index('id')
+games = pd.DataFrame(dic).drop_duplicates(subset='id').set_index('id')
 print(games)
-copper.save(games, 'games')
+games.to_csv('games.csv')
