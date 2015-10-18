@@ -32,4 +32,4 @@ dic = {'url': teams_urls, 'prefix_2': prefix_2, 'prefix_1': prefix_1}
 teams = pd.DataFrame(dic, index=teams)
 teams.index.name = 'team'
 print(teams)
-teams.to_csv('teams.csv')
+teams.to_JSON('teams.csv')
