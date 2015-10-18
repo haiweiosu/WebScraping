@@ -1,0 +1,188 @@
+[
+  {
+    "FIELD1":"team",
+    "FIELD2":"prefix_1",
+    "FIELD3":"prefix_2",
+    "FIELD4":"url"
+  },
+  {
+    "FIELD1":"Boston Celtics",
+    "FIELD2":"bos",
+    "FIELD3":"boston-celtics",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/bos/boston-celtics"
+  },
+  {
+    "FIELD1":"Brooklyn Nets",
+    "FIELD2":"bkn",
+    "FIELD3":"brooklyn-nets",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/bkn/brooklyn-nets"
+  },
+  {
+    "FIELD1":"New York Knicks",
+    "FIELD2":"ny",
+    "FIELD3":"new-york-knicks",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/ny/new-york-knicks"
+  },
+  {
+    "FIELD1":"Philadelphia 76ers",
+    "FIELD2":"phi",
+    "FIELD3":"philadelphia-76ers",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/phi/philadelphia-76ers"
+  },
+  {
+    "FIELD1":"Toronto Raptors",
+    "FIELD2":"tor",
+    "FIELD3":"toronto-raptors",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/tor/toronto-raptors"
+  },
+  {
+    "FIELD1":"Golden State Warriors",
+    "FIELD2":"gs",
+    "FIELD3":"golden-state-warriors",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/gs/golden-state-warriors"
+  },
+  {
+    "FIELD1":"Los Angeles Clippers",
+    "FIELD2":"lac",
+    "FIELD3":"los-angeles-clippers",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/lac/los-angeles-clippers"
+  },
+  {
+    "FIELD1":"Los Angeles Lakers",
+    "FIELD2":"lal",
+    "FIELD3":"los-angeles-lakers",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/lal/los-angeles-lakers"
+  },
+  {
+    "FIELD1":"Phoenix Suns",
+    "FIELD2":"phx",
+    "FIELD3":"phoenix-suns",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/phx/phoenix-suns"
+  },
+  {
+    "FIELD1":"Sacramento Kings",
+    "FIELD2":"sac",
+    "FIELD3":"sacramento-kings",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/sac/sacramento-kings"
+  },
+  {
+    "FIELD1":"Chicago Bulls",
+    "FIELD2":"chi",
+    "FIELD3":"chicago-bulls",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/chi/chicago-bulls"
+  },
+  {
+    "FIELD1":"Cleveland Cavaliers",
+    "FIELD2":"cle",
+    "FIELD3":"cleveland-cavaliers",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/cle/cleveland-cavaliers"
+  },
+  {
+    "FIELD1":"Detroit Pistons",
+    "FIELD2":"det",
+    "FIELD3":"detroit-pistons",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/det/detroit-pistons"
+  },
+  {
+    "FIELD1":"Indiana Pacers",
+    "FIELD2":"ind",
+    "FIELD3":"indiana-pacers",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/ind/indiana-pacers"
+  },
+  {
+    "FIELD1":"Milwaukee Bucks",
+    "FIELD2":"mil",
+    "FIELD3":"milwaukee-bucks",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/mil/milwaukee-bucks"
+  },
+  {
+    "FIELD1":"Dallas Mavericks",
+    "FIELD2":"dal",
+    "FIELD3":"dallas-mavericks",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/dal/dallas-mavericks"
+  },
+  {
+    "FIELD1":"Houston Rockets",
+    "FIELD2":"hou",
+    "FIELD3":"houston-rockets",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/hou/houston-rockets"
+  },
+  {
+    "FIELD1":"Memphis Grizzlies",
+    "FIELD2":"mem",
+    "FIELD3":"memphis-grizzlies",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/mem/memphis-grizzlies"
+  },
+  {
+    "FIELD1":"New Orleans Pelicans",
+    "FIELD2":"no",
+    "FIELD3":"new-orleans-pelicans",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/no/new-orleans-pelicans"
+  },
+  {
+    "FIELD1":"San Antonio Spurs",
+    "FIELD2":"sa",
+    "FIELD3":"san-antonio-spurs",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/sa/san-antonio-spurs"
+  },
+  {
+    "FIELD1":"Atlanta Hawks",
+    "FIELD2":"atl",
+    "FIELD3":"atlanta-hawks",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/atl/atlanta-hawks"
+  },
+  {
+    "FIELD1":"Charlotte Hornets",
+    "FIELD2":"cha",
+    "FIELD3":"charlotte-hornets",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/cha/charlotte-hornets"
+  },
+  {
+    "FIELD1":"Miami Heat",
+    "FIELD2":"mia",
+    "FIELD3":"miami-heat",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/mia/miami-heat"
+  },
+  {
+    "FIELD1":"Orlando Magic",
+    "FIELD2":"orl",
+    "FIELD3":"orlando-magic",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/orl/orlando-magic"
+  },
+  {
+    "FIELD1":"Washington Wizards",
+    "FIELD2":"wsh",
+    "FIELD3":"washington-wizards",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/wsh/washington-wizards"
+  },
+  {
+    "FIELD1":"Denver Nuggets",
+    "FIELD2":"den",
+    "FIELD3":"denver-nuggets",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/den/denver-nuggets"
+  },
+  {
+    "FIELD1":"Minnesota Timberwolves",
+    "FIELD2":"min",
+    "FIELD3":"minnesota-timberwolves",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/min/minnesota-timberwolves"
+  },
+  {
+    "FIELD1":"Oklahoma City Thunder",
+    "FIELD2":"okc",
+    "FIELD3":"oklahoma-city-thunder",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/okc/oklahoma-city-thunder"
+  },
+  {
+    "FIELD1":"Portland Trail Blazers",
+    "FIELD2":"por",
+    "FIELD3":"portland-trail-blazers",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/por/portland-trail-blazers"
+  },
+  {
+    "FIELD1":"Utah Jazz",
+    "FIELD2":"utah",
+    "FIELD3":"utah-jazz",
+    "FIELD4":"http://espn.go.com/nba/team/_/name/utah/utah-jazz"
+  }
+]
