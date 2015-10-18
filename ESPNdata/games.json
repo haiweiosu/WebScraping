@@ -1,0 +1,866 @@
+[
+  {
+    "FIELD1":"id",
+    "FIELD2":"date",
+    "FIELD3":"home_team",
+    "FIELD4":"home_team_score",
+    "FIELD5":"visit_team",
+    "FIELD6":"visit_team_score"
+  },
+  {
+    "FIELD1":"400583902",
+    "FIELD2":"2015-10-06",
+    "FIELD3":"Boston Celtics",
+    "FIELD4":"98",
+    "FIELD5":"Philadelphia",
+    "FIELD6":"78"
+  },
+  {
+    "FIELD1":"400583937",
+    "FIELD2":"2015-10-08",
+    "FIELD3":"Boston Celtics",
+    "FIELD4":"106",
+    "FIELD5":"NY Knicks",
+    "FIELD6":"86"
+  },
+  {
+    "FIELD1":"400583947",
+    "FIELD2":"2015-10-10",
+    "FIELD3":"Toronto",
+    "FIELD4":"116",
+    "FIELD5":"Boston Celtics",
+    "FIELD6":"109"
+  },
+  {
+    "FIELD1":"400583952",
+    "FIELD2":"2015-10-11",
+    "FIELD3":"Boston Celtics",
+    "FIELD4":"80",
+    "FIELD5":"NY Knicks",
+    "FIELD6":"96"
+  },
+  {
+    "FIELD1":"400583973",
+    "FIELD2":"2015-10-15",
+    "FIELD3":"Boston Celtics",
+    "FIELD4":"89",
+    "FIELD5":"Toronto",
+    "FIELD6":"92"
+  },
+  {
+    "FIELD1":"400583975",
+    "FIELD2":"2015-10-16",
+    "FIELD3":"Philadelphia",
+    "FIELD4":"91",
+    "FIELD5":"Boston Celtics",
+    "FIELD6":"111"
+  },
+  {
+    "FIELD1":"400583996",
+    "FIELD2":"2015-10-19",
+    "FIELD3":"Brooklyn",
+    "FIELD4":"90",
+    "FIELD5":"Boston Celtics",
+    "FIELD6":"95"
+  },
+  {
+    "FIELD1":"400584018",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"Boston Celtics",
+    "FIELD4":"100",
+    "FIELD5":"Brooklyn",
+    "FIELD6":"86"
+  },
+  {
+    "FIELD1":"400583955",
+    "FIELD2":"2015-10-12",
+    "FIELD3":"Sacramento",
+    "FIELD4":"95",
+    "FIELD5":"Brooklyn Nets",
+    "FIELD6":"97"
+  },
+  {
+    "FIELD1":"400583974",
+    "FIELD2":"2015-10-15",
+    "FIELD3":"Brooklyn Nets",
+    "FIELD4":"129",
+    "FIELD5":"Sacramento",
+    "FIELD6":"117"
+  },
+  {
+    "FIELD1":"400584003",
+    "FIELD2":"2015-10-20",
+    "FIELD3":"Brooklyn Nets",
+    "FIELD4":"99",
+    "FIELD5":"Philadelphia",
+    "FIELD6":"88"
+  },
+  {
+    "FIELD1":"400583963",
+    "FIELD2":"2015-10-13",
+    "FIELD3":"New York Knicks",
+    "FIELD4":"76",
+    "FIELD5":"Toronto",
+    "FIELD6":"81"
+  },
+  {
+    "FIELD1":"400583964",
+    "FIELD2":"2015-10-14",
+    "FIELD3":"Philadelphia",
+    "FIELD4":"77",
+    "FIELD5":"New York Knicks",
+    "FIELD6":"84"
+  },
+  {
+    "FIELD1":"400584004",
+    "FIELD2":"2015-10-20",
+    "FIELD3":"New York Knicks",
+    "FIELD4":"107",
+    "FIELD5":"Milwaukee",
+    "FIELD6":"120"
+  },
+  {
+    "FIELD1":"400584019",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"New York Knicks",
+    "FIELD4":"103",
+    "FIELD5":"Washington",
+    "FIELD6":"100"
+  },
+  {
+    "FIELD1":"400584032",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Toronto",
+    "FIELD4":"83",
+    "FIELD5":"New York Knicks",
+    "FIELD6":"80"
+  },
+  {
+    "FIELD1":"400583932",
+    "FIELD2":"2015-10-08",
+    "FIELD3":"Philadelphia 76ers",
+    "FIELD4":"106",
+    "FIELD5":"Charlotte",
+    "FIELD6":"92"
+  },
+  {
+    "FIELD1":"400583945",
+    "FIELD2":"2015-10-10",
+    "FIELD3":"Minnesota",
+    "FIELD4":"116",
+    "FIELD5":"Philadelphia 76ers",
+    "FIELD6":"110"
+  },
+  {
+    "FIELD1":"400583992",
+    "FIELD2":"2015-10-18",
+    "FIELD3":"Philadelphia 76ers",
+    "FIELD4":"95",
+    "FIELD5":"Orlando",
+    "FIELD6":"84"
+  },
+  {
+    "FIELD1":"400584025",
+    "FIELD2":"2015-10-23",
+    "FIELD3":"Detroit",
+    "FIELD4":"109",
+    "FIELD5":"Philadelphia 76ers",
+    "FIELD6":"103"
+  },
+  {
+    "FIELD1":"400583898",
+    "FIELD2":"2015-10-05",
+    "FIELD3":"Toronto Raptors",
+    "FIELD4":"99",
+    "FIELD5":"Sacramento",
+    "FIELD6":"94"
+  },
+  {
+    "FIELD1":"400583906",
+    "FIELD2":"2015-10-07",
+    "FIELD3":"Sacramento",
+    "FIELD4":"113",
+    "FIELD5":"Toronto Raptors",
+    "FIELD6":"106"
+  },
+  {
+    "FIELD1":"400583985",
+    "FIELD2":"2015-10-17",
+    "FIELD3":"Oklahoma City",
+    "FIELD4":"90",
+    "FIELD5":"Toronto Raptors",
+    "FIELD6":"109"
+  },
+  {
+    "FIELD1":"400583931",
+    "FIELD2":"2015-10-07",
+    "FIELD3":"Los Angeles",
+    "FIELD4":"94",
+    "FIELD5":"Golden State Warriors",
+    "FIELD6":"112"
+  },
+  {
+    "FIELD1":"400583942",
+    "FIELD2":"2015-10-09",
+    "FIELD3":"Los Angeles",
+    "FIELD4":"105",
+    "FIELD5":"Golden State Warriors",
+    "FIELD6":"120"
+  },
+  {
+    "FIELD1":"400583958",
+    "FIELD2":"2015-10-12",
+    "FIELD3":"Los Angeles",
+    "FIELD4":"75",
+    "FIELD5":"Golden State Warriors",
+    "FIELD6":"116"
+  },
+  {
+    "FIELD1":"400583979",
+    "FIELD2":"2015-10-16",
+    "FIELD3":"Golden State Warriors",
+    "FIELD4":"104",
+    "FIELD5":"Denver",
+    "FIELD6":"101"
+  },
+  {
+    "FIELD1":"400583987",
+    "FIELD2":"2015-10-17",
+    "FIELD3":"Miami",
+    "FIELD4":"115",
+    "FIELD5":"Golden State Warriors",
+    "FIELD6":"108"
+  },
+  {
+    "FIELD1":"400584000",
+    "FIELD2":"2015-10-19",
+    "FIELD3":"Houston",
+    "FIELD4":"90",
+    "FIELD5":"Golden State Warriors",
+    "FIELD6":"83"
+  },
+  {
+    "FIELD1":"400583924",
+    "FIELD2":"2015-10-21",
+    "FIELD3":"Golden State Warriors",
+    "FIELD4":"125",
+    "FIELD5":"Los Angeles",
+    "FIELD6":"107"
+  },
+  {
+    "FIELD1":"400584033",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Golden State Warriors",
+    "FIELD4":"119",
+    "FIELD5":"Denver",
+    "FIELD6":"112"
+  },
+  {
+    "FIELD1":"400583956",
+    "FIELD2":"2015-10-12",
+    "FIELD3":"Portland",
+    "FIELD4":"119",
+    "FIELD5":"Los Angeles Clippers",
+    "FIELD6":"114"
+  },
+  {
+    "FIELD1":"400583962",
+    "FIELD2":"2015-10-13",
+    "FIELD3":"Utah",
+    "FIELD4":"102",
+    "FIELD5":"Los Angeles Clippers",
+    "FIELD6":"89"
+  },
+  {
+    "FIELD1":"400583989",
+    "FIELD2":"2015-10-17",
+    "FIELD3":"Los Angeles Clippers",
+    "FIELD4":"101",
+    "FIELD5":"Utah",
+    "FIELD6":"97"
+  },
+  {
+    "FIELD1":"400583995",
+    "FIELD2":"2015-10-18",
+    "FIELD3":"Los Angeles Clippers",
+    "FIELD4":"93",
+    "FIELD5":"Denver",
+    "FIELD6":"104"
+  },
+  {
+    "FIELD1":"400584022",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"Los Angeles Clippers",
+    "FIELD4":"108",
+    "FIELD5":"Phoenix",
+    "FIELD6":"105"
+  },
+  {
+    "FIELD1":"400584034",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Los Angeles Clippers",
+    "FIELD4":"89",
+    "FIELD5":"Portland",
+    "FIELD6":"99"
+  },
+  {
+    "FIELD1":"400583901",
+    "FIELD2":"2015-10-06",
+    "FIELD3":"Los Angeles Lakers",
+    "FIELD4":"98",
+    "FIELD5":"Denver",
+    "FIELD6":"95"
+  },
+  {
+    "FIELD1":"400583980",
+    "FIELD2":"2015-10-16",
+    "FIELD3":"Los Angeles Lakers",
+    "FIELD4":"86",
+    "FIELD5":"Utah",
+    "FIELD6":"119"
+  },
+  {
+    "FIELD1":"400583998",
+    "FIELD2":"2015-10-19",
+    "FIELD3":"Los Angeles Lakers",
+    "FIELD4":"98",
+    "FIELD5":"Utah",
+    "FIELD6":"91"
+  },
+  {
+    "FIELD1":"400584011",
+    "FIELD2":"2015-10-21",
+    "FIELD3":"Los Angeles Lakers",
+    "FIELD4":"108",
+    "FIELD5":"Phoenix",
+    "FIELD6":"114"
+  },
+  {
+    "FIELD1":"400584017",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"Los Angeles Lakers",
+    "FIELD4":"94",
+    "FIELD5":"Portland",
+    "FIELD6":"86"
+  },
+  {
+    "FIELD1":"400584031",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Los Angeles Lakers",
+    "FIELD4":"92",
+    "FIELD5":"Sacramento",
+    "FIELD6":"93"
+  },
+  {
+    "FIELD1":"400583946",
+    "FIELD2":"2015-10-10",
+    "FIELD3":"Phoenix Suns",
+    "FIELD4":"97",
+    "FIELD5":"Denver",
+    "FIELD6":"89"
+  },
+  {
+    "FIELD1":"400583961",
+    "FIELD2":"2015-10-13",
+    "FIELD3":"Houston",
+    "FIELD4":"95",
+    "FIELD5":"Phoenix Suns",
+    "FIELD6":"92"
+  },
+  {
+    "FIELD1":"400583978",
+    "FIELD2":"2015-10-16",
+    "FIELD3":"Phoenix Suns",
+    "FIELD4":"121",
+    "FIELD5":"San Antonio",
+    "FIELD6":"90"
+  },
+  {
+    "FIELD1":"400584030",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Utah",
+    "FIELD4":"100",
+    "FIELD5":"Phoenix Suns",
+    "FIELD6":"105"
+  },
+  {
+    "FIELD1":"400584007",
+    "FIELD2":"2015-10-20",
+    "FIELD3":"San Antonio",
+    "FIELD4":"106",
+    "FIELD5":"Sacramento Kings",
+    "FIELD6":"99"
+  },
+  {
+    "FIELD1":"400583900",
+    "FIELD2":"2015-10-06",
+    "FIELD3":"Chicago Bulls",
+    "FIELD4":"81",
+    "FIELD5":"Washington",
+    "FIELD6":"85"
+  },
+  {
+    "FIELD1":"400583929",
+    "FIELD2":"2015-10-07",
+    "FIELD3":"Detroit",
+    "FIELD4":"111",
+    "FIELD5":"Chicago Bulls",
+    "FIELD6":"109"
+  },
+  {
+    "FIELD1":"400583953",
+    "FIELD2":"2015-10-11",
+    "FIELD3":"Milwaukee",
+    "FIELD4":"85",
+    "FIELD5":"Chicago Bulls",
+    "FIELD6":"91"
+  },
+  {
+    "FIELD1":"400583960",
+    "FIELD2":"2015-10-13",
+    "FIELD3":"Chicago Bulls",
+    "FIELD4":"110",
+    "FIELD5":"Denver",
+    "FIELD6":"90"
+  },
+  {
+    "FIELD1":"400583976",
+    "FIELD2":"2015-10-16",
+    "FIELD3":"Chicago Bulls",
+    "FIELD4":"85",
+    "FIELD5":"Atlanta",
+    "FIELD6":"84"
+  },
+  {
+    "FIELD1":"400583999",
+    "FIELD2":"2015-10-19",
+    "FIELD3":"Chicago Bulls",
+    "FIELD4":"101",
+    "FIELD5":"Charlotte",
+    "FIELD6":"96"
+  },
+  {
+    "FIELD1":"400584002",
+    "FIELD2":"2015-10-20",
+    "FIELD3":"Cleveland",
+    "FIELD4":"107",
+    "FIELD5":"Chicago Bulls",
+    "FIELD6":"98"
+  },
+  {
+    "FIELD1":"400584027",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Chicago Bulls",
+    "FIELD4":"112",
+    "FIELD5":"Minnesota",
+    "FIELD6":"113"
+  },
+  {
+    "FIELD1":"400583949",
+    "FIELD2":"2015-10-11",
+    "FIELD3":"Miami",
+    "FIELD4":"119",
+    "FIELD5":"Cleveland Cavaliers",
+    "FIELD6":"122"
+  },
+  {
+    "FIELD1":"400583965",
+    "FIELD2":"2015-10-14",
+    "FIELD3":"Cleveland Cavaliers",
+    "FIELD4":"106",
+    "FIELD5":"Milwaukee",
+    "FIELD6":"100"
+  },
+  {
+    "FIELD1":"400583972",
+    "FIELD2":"2015-10-15",
+    "FIELD3":"Cleveland Cavaliers",
+    "FIELD4":"98",
+    "FIELD5":"Indiana",
+    "FIELD6":"93"
+  },
+  {
+    "FIELD1":"400583988",
+    "FIELD2":"2015-10-17",
+    "FIELD3":"Cleveland Cavaliers",
+    "FIELD4":"102",
+    "FIELD5":"Dallas",
+    "FIELD6":"108"
+  },
+  {
+    "FIELD1":"400584015",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"Memphis",
+    "FIELD4":"96",
+    "FIELD5":"Cleveland Cavaliers",
+    "FIELD6":"92"
+  },
+  {
+    "FIELD1":"400583941",
+    "FIELD2":"2015-10-09",
+    "FIELD3":"Detroit Pistons",
+    "FIELD4":"94",
+    "FIELD5":"Milwaukee",
+    "FIELD6":"80"
+  },
+  {
+    "FIELD1":"400583954",
+    "FIELD2":"2015-10-12",
+    "FIELD3":"Washington",
+    "FIELD4":"91",
+    "FIELD5":"Detroit Pistons",
+    "FIELD6":"89"
+  },
+  {
+    "FIELD1":"400583969",
+    "FIELD2":"2015-10-15",
+    "FIELD3":"Charlotte",
+    "FIELD4":"84",
+    "FIELD5":"Detroit Pistons",
+    "FIELD6":"104"
+  },
+  {
+    "FIELD1":"400583982",
+    "FIELD2":"2015-10-17",
+    "FIELD3":"Orlando",
+    "FIELD4":"99",
+    "FIELD5":"Detroit Pistons",
+    "FIELD6":"87"
+  },
+  {
+    "FIELD1":"400583993",
+    "FIELD2":"2015-10-18",
+    "FIELD3":"Atlanta",
+    "FIELD4":"100",
+    "FIELD5":"Detroit Pistons",
+    "FIELD6":"104"
+  },
+  {
+    "FIELD1":"400583904",
+    "FIELD2":"2015-10-07",
+    "FIELD3":"Indiana Pacers",
+    "FIELD4":"103",
+    "FIELD5":"Minnesota",
+    "FIELD6":"90"
+  },
+  {
+    "FIELD1":"400583944",
+    "FIELD2":"2015-10-10",
+    "FIELD3":"Indiana Pacers",
+    "FIELD4":"93",
+    "FIELD5":"Orlando",
+    "FIELD6":"96"
+  },
+  {
+    "FIELD1":"400583957",
+    "FIELD2":"2015-10-12",
+    "FIELD3":"Dallas",
+    "FIELD4":"106",
+    "FIELD5":"Indiana Pacers",
+    "FIELD6":"98"
+  },
+  {
+    "FIELD1":"400583990",
+    "FIELD2":"2015-10-18",
+    "FIELD3":"Indiana Pacers",
+    "FIELD4":"98",
+    "FIELD5":"Dallas",
+    "FIELD6":"93"
+  },
+  {
+    "FIELD1":"400584008",
+    "FIELD2":"2015-10-21",
+    "FIELD3":"Minnesota",
+    "FIELD4":"107",
+    "FIELD5":"Indiana Pacers",
+    "FIELD6":"89"
+  },
+  {
+    "FIELD1":"400584023",
+    "FIELD2":"2015-10-23",
+    "FIELD3":"Charlotte",
+    "FIELD4":"79",
+    "FIELD5":"Indiana Pacers",
+    "FIELD6":"88"
+  },
+  {
+    "FIELD1":"400583933",
+    "FIELD2":"2015-10-08",
+    "FIELD3":"Milwaukee Bucks",
+    "FIELD4":"86",
+    "FIELD5":"Memphis",
+    "FIELD6":"83"
+  },
+  {
+    "FIELD1":"400583984",
+    "FIELD2":"2015-10-17",
+    "FIELD3":"Minnesota",
+    "FIELD4":"98",
+    "FIELD5":"Milwaukee Bucks",
+    "FIELD6":"105"
+  },
+  {
+    "FIELD1":"400584016",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"Milwaukee Bucks",
+    "FIELD4":"91",
+    "FIELD5":"Minnesota",
+    "FIELD6":"110"
+  },
+  {
+    "FIELD1":"400583930",
+    "FIELD2":"2015-10-07",
+    "FIELD3":"Dallas Mavericks",
+    "FIELD4":"108",
+    "FIELD5":"Houston",
+    "FIELD6":"111"
+  },
+  {
+    "FIELD1":"400583948",
+    "FIELD2":"2015-10-10",
+    "FIELD3":"Dallas Mavericks",
+    "FIELD4":"109",
+    "FIELD5":"Oklahoma City",
+    "FIELD6":"118"
+  },
+  {
+    "FIELD1":"400584006",
+    "FIELD2":"2015-10-20",
+    "FIELD3":"Dallas Mavericks",
+    "FIELD4":"108",
+    "FIELD5":"Memphis",
+    "FIELD6":"103"
+  },
+  {
+    "FIELD1":"400584024",
+    "FIELD2":"2015-10-23",
+    "FIELD3":"New Orleans",
+    "FIELD4":"88",
+    "FIELD5":"Dallas Mavericks",
+    "FIELD6":"85"
+  },
+  {
+    "FIELD1":"400584026",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Orlando",
+    "FIELD4":"92",
+    "FIELD5":"Dallas Mavericks",
+    "FIELD6":"117"
+  },
+  {
+    "FIELD1":"400583939",
+    "FIELD2":"2015-10-09",
+    "FIELD3":"Houston Rockets",
+    "FIELD4":"113",
+    "FIELD5":"Memphis",
+    "FIELD6":"93"
+  },
+  {
+    "FIELD1":"400583966",
+    "FIELD2":"2015-10-14",
+    "FIELD3":"New Orleans",
+    "FIELD4":"117",
+    "FIELD5":"Houston Rockets",
+    "FIELD6":"98"
+  },
+  {
+    "FIELD1":"400584013",
+    "FIELD2":"2015-10-21",
+    "FIELD3":"Miami",
+    "FIELD4":"90",
+    "FIELD5":"Houston Rockets",
+    "FIELD6":"85"
+  },
+  {
+    "FIELD1":"400584014",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"Orlando",
+    "FIELD4":"89",
+    "FIELD5":"Houston Rockets",
+    "FIELD6":"90"
+  },
+  {
+    "FIELD1":"400584029",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Houston Rockets",
+    "FIELD4":"96",
+    "FIELD5":"San Antonio",
+    "FIELD6":"87"
+  },
+  {
+    "FIELD1":"400583951",
+    "FIELD2":"2015-10-11",
+    "FIELD3":"Memphis Grizzlies",
+    "FIELD4":"93",
+    "FIELD5":"Atlanta",
+    "FIELD6":"88"
+  },
+  {
+    "FIELD1":"400583967",
+    "FIELD2":"2015-10-14",
+    "FIELD3":"Oklahoma City",
+    "FIELD4":"117",
+    "FIELD5":"Memphis Grizzlies",
+    "FIELD6":"107"
+  },
+  {
+    "FIELD1":"400584028",
+    "FIELD2":"2015-10-24",
+    "FIELD3":"Memphis Grizzlies",
+    "FIELD4":"98",
+    "FIELD5":"Miami",
+    "FIELD6":"104"
+  },
+  {
+    "FIELD1":"400583897",
+    "FIELD2":"2015-10-04",
+    "FIELD3":"Miami",
+    "FIELD4":"86",
+    "FIELD5":"New Orleans Pelicans",
+    "FIELD6":"98"
+  },
+  {
+    "FIELD1":"400583903",
+    "FIELD2":"2015-10-06",
+    "FIELD3":"Atlanta",
+    "FIELD4":"93",
+    "FIELD5":"New Orleans Pelicans",
+    "FIELD6":"87"
+  },
+  {
+    "FIELD1":"400583934",
+    "FIELD2":"2015-10-08",
+    "FIELD3":"New Orleans Pelicans",
+    "FIELD4":"89",
+    "FIELD5":"Washington",
+    "FIELD6":"94"
+  },
+  {
+    "FIELD1":"400583977",
+    "FIELD2":"2015-10-16",
+    "FIELD3":"New Orleans Pelicans",
+    "FIELD4":"120",
+    "FIELD5":"Oklahoma City",
+    "FIELD6":"86"
+  },
+  {
+    "FIELD1":"400584001",
+    "FIELD2":"2015-10-20",
+    "FIELD3":"Washington",
+    "FIELD4":"84",
+    "FIELD5":"New Orleans Pelicans",
+    "FIELD6":"88"
+  },
+  {
+    "FIELD1":"400583994",
+    "FIELD2":"2015-10-18",
+    "FIELD3":"San Antonio Spurs",
+    "FIELD4":"108",
+    "FIELD5":"Miami",
+    "FIELD6":"111"
+  },
+  {
+    "FIELD1":"400584021",
+    "FIELD2":"2015-10-22",
+    "FIELD3":"San Antonio Spurs",
+    "FIELD4":"107",
+    "FIELD5":"Atlanta",
+    "FIELD6":"117"
+  },
+  {
+    "FIELD1":"400583968",
+    "FIELD2":"2015-10-14",
+    "FIELD3":"Miami",
+    "FIELD4":"103",
+    "FIELD5":"Atlanta Hawks",
+    "FIELD6":"109"
+  },
+  {
+    "FIELD1":"400584005",
+    "FIELD2":"2015-10-20",
+    "FIELD3":"Atlanta Hawks",
+    "FIELD4":"117",
+    "FIELD5":"Charlotte",
+    "FIELD6":"114"
+  },
+  {
+    "FIELD1":"400583943",
+    "FIELD2":"2015-10-10",
+    "FIELD3":"Charlotte Hornets",
+    "FIELD4":"99",
+    "FIELD5":"Washington",
+    "FIELD6":"86"
+  },
+  {
+    "FIELD1":"400583959",
+    "FIELD2":"2015-10-13",
+    "FIELD3":"Charlotte Hornets",
+    "FIELD4":"99",
+    "FIELD5":"Orlando",
+    "FIELD6":"97"
+  },
+  {
+    "FIELD1":"400583981",
+    "FIELD2":"2015-10-17",
+    "FIELD3":"Washington",
+    "FIELD4":"86",
+    "FIELD5":"Charlotte Hornets",
+    "FIELD6":"96"
+  },
+  {
+    "FIELD1":"400583928",
+    "FIELD2":"2015-10-07",
+    "FIELD3":"Miami Heat",
+    "FIELD4":"101",
+    "FIELD5":"Orlando",
+    "FIELD6":"108"
+  },
+  {
+    "FIELD1":"400583935",
+    "FIELD2":"2015-10-08",
+    "FIELD3":"Denver Nuggets",
+    "FIELD4":"114",
+    "FIELD5":"Oklahoma City",
+    "FIELD6":"101"
+  },
+  {
+    "FIELD1":"400584010",
+    "FIELD2":"2015-10-21",
+    "FIELD3":"Denver Nuggets",
+    "FIELD4":"75",
+    "FIELD5":"Portland",
+    "FIELD6":"93"
+  },
+  {
+    "FIELD1":"400583997",
+    "FIELD2":"2015-10-19",
+    "FIELD3":"Oklahoma City",
+    "FIELD4":"94",
+    "FIELD5":"Minnesota Timberwolves",
+    "FIELD6":"112"
+  },
+  {
+    "FIELD1":"400584009",
+    "FIELD2":"2015-10-21",
+    "FIELD3":"Oklahoma City Thunder",
+    "FIELD4":"91",
+    "FIELD5":"Utah",
+    "FIELD6":"105"
+  },
+  {
+    "FIELD1":"400583905",
+    "FIELD2":"2015-10-07",
+    "FIELD3":"Utah",
+    "FIELD4":"92",
+    "FIELD5":"Portland Trail Blazers",
+    "FIELD6":"73"
+  },
+  {
+    "FIELD1":"400583940",
+    "FIELD2":"2015-10-09",
+    "FIELD3":"Portland Trail Blazers",
+    "FIELD4":"105",
+    "FIELD5":"Utah",
+    "FIELD6":"109"
+  }
+]
