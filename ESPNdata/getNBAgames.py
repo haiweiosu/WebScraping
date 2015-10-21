@@ -11,7 +11,7 @@ from datetime import datetime, date
 
 year = 2015
 teams = pd.read_csv('teams.csv')
-BASE_URL = 'http://espn.go.com/nba/team/schedule/_/name/{0}/year/{1}/{2}'
+BASE_URL = 'http://espn.go.com/nba/team/schedule/_/name/{0}/{1}/'
 
 match_id = []
 dates = []
@@ -22,7 +22,7 @@ visit_team_score = []
 
 for index, row in teams.iterrows():
     _team, url = row['team'], row['url']
-    r = requests.get(BASE_URL.format(row['prefix_1'], year, row['prefix_2']))
+    r = requests.get(BASE_URL.format(row['prefix_1'],row['prefix_2']))
     table = BeautifulSoup(r.text, "html.parser").table
     for row in table.find_all('tr')[1:]: # Remove header
         columns = row.find_all('td')
